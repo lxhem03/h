@@ -21,4 +21,4 @@ COPY bot.py .
 RUN mkdir -p /app/downloads /app/torrents /app/thumbnails
 
 # Run the bot
-CMD ["python", "bot.py"]
+CMD gunicorn app:app && python bot.py
