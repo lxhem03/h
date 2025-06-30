@@ -15,11 +15,11 @@ from pathlib import Path
 # Configuration
 API_ID = "27394279"  # Replace with your API ID
 API_HASH = "90a9aa4c31afa3750da5fd686c410851"  # Replace with your API Hash
-BOT_TOKEN = ""  # Replace with your Bot Token
+BOT_TOKEN = "7721902522:AAFnaEw9JuYmmfqPybFkgX60mGqO-fk9bJE"  # Replace with your Bot Token
 CHANNEL_ID = -1002288135729  # Replace with your Telegram channel ID
 RSS_FEEDS = [
-    "",  # SubsPlease 1080p
-    ""  # Nyaa 1080p
+    "https://nyaa.si/?page=rss",  # SubsPlease 1080p
+    "https://subsplease.org/rss"  # Nyaa 1080p
 ]
 DOWNLOAD_DIR = "/app/downloads/"  # Koyeb volume or temp directory
 TORRENT_DIR = "/app/torrents/"  # Koyeb volume or temp directory
