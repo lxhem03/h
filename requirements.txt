@@ -4,4 +4,9 @@ feedparser
 requests
 python-magic
 yt-dlp
-python-libtorrent==2.0.9
+python-libtorrent
+Flask
+gunicorn
+Jinja2
+werkzeug
+itsdangerous
