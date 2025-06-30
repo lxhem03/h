@@ -4,7 +4,7 @@ feedparser
 requests
 python-magic
 yt-dlp
-python-libtorrent
+libtorrent
 Flask
 gunicorn
 Jinja2
